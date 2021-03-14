@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ZXCA-LFX.github.io</id>
     <title>斩新长安</title>
-    <updated>2021-03-13T23:57:50.244Z</updated>
+    <updated>2021-03-14T01:14:02.938Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ZXCA-LFX.github.io"/>
     <link rel="self" href="https://ZXCA-LFX.github.io/atom.xml"/>
@@ -10,4 +10,35 @@
     <logo>https://ZXCA-LFX.github.io/images/avatar.png</logo>
     <icon>https://ZXCA-LFX.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 斩新长安</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://ZXCA-LFX.github.io/post/about/</id>
+        <link href="https://ZXCA-LFX.github.io/post/about/">
+        </link>
+        <updated>2020-08-22T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站 ，很高兴在这里遇到你 。</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站 ，很高兴在这里遇到你 。</p>
+</blockquote>
+<!-- more -->
+<h2 id="关于本站">关于本站</h2>
+<p>网站名称 : <strong>斩新长安</strong><br>
+博主名称 :<strong>洛枫浔</strong><br>
+网站最初建立时间 ：<strong>2020年8月23日</strong></p>
+<hr>
+<p>##关于博主<br>
+博主网名<strong>洛枫浔</strong>（问就是随便起的）<br>
+建立网站只是为了记录一些事情 ，这里属于自己 。<br>
+标签 ：<strong>学生</strong> ，<strong>宅而不肥</strong> ，<strong>热爱折腾</strong> ，<strong>蒟蒻PRO MAX</strong></p>
+<hr>
+<p>##网站主题<br>
+<a href="https://github.com/hsxyhao/gridea-theme-next">NexT</a></p>
+<hr>
+<p>##网站背景<br>
+画师 :<a href="http://www.pixiv.net/member.php?id=11246082">Miv4t</a></p>
+]]></content>
+    </entry>
 </feed>
