@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ZXCA-LFX.github.io</id>
     <title>斩新长安</title>
-    <updated>2021-03-14T01:16:52.852Z</updated>
+    <updated>2021-03-14T03:23:17.560Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ZXCA-LFX.github.io"/>
     <link rel="self" href="https://ZXCA-LFX.github.io/atom.xml"/>
@@ -26,19 +26,19 @@
 <!-- more -->
 <h2 id="关于本站">关于本站</h2>
 <p>网站名称 : <strong>斩新长安</strong><br>
-博主名称 :<strong>洛枫浔</strong><br>
+博主名称 : <strong>洛枫浔</strong><br>
 网站最初建立时间 ：<strong>2020年8月23日</strong></p>
 <hr>
-<p>##关于博主<br>
-博主网名<strong>洛枫浔</strong>（问就是随便起的）<br>
+<h2 id="关于博主">关于博主</h2>
+<p>博主网名<strong>洛枫浔</strong>（问就是随便起的）<br>
 建立网站只是为了记录一些事情 ，这里属于自己 。<br>
 标签 ：<strong>学生</strong> ，<strong>宅而不肥</strong> ，<strong>热爱折腾</strong> ，<strong>蒟蒻PRO MAX</strong></p>
 <hr>
-<p>##网站主题<br>
-<a href="https://github.com/hsxyhao/gridea-theme-next">NexT</a></p>
+<h2 id="网站主题">网站主题</h2>
+<p><a href="https://github.com/hsxyhao/gridea-theme-next">NexT</a></p>
 <hr>
-<p>##网站背景<br>
-画师 :<a href="http://www.pixiv.net/member.php?id=11246082">Miv4t</a></p>
+<h2 id="网站背景">网站背景</h2>
+<p>画师 :<a href="http://www.pixiv.net/member.php?id=11246082">Miv4t</a></p>
 ]]></content>
     </entry>
 </feed>
