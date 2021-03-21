@@ -9,7 +9,7 @@
 <meta name="description" content="以山的体积来看 ，长满树的山其实是毛茸茸的。">
 <meta name="theme-color" content="#495057">
 <title>斩新长安 | LFX&#39;HOME</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1616302122170">
+<link rel="shortcut icon" href="/favicon.ico?v=1616341344695">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -181,10 +181,7 @@
     
     <div class="site-description right-motion">
       
-      
-      
-        <p>以山的体积来看 ，长满树的山其实是毛茸茸的。</p>
-      
+        <p id="binft">也许会有 ，将水染尽的一天 。</p>
       
     </div>
     
@@ -223,6 +220,11 @@
   
 
 
+
+  <div style="width: 100%; position: relative;">
+    <canvas id="canvasDiyBlock" style="width:100%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
+    <script src="/media/js/magic/clock.js"></script>
+  </div>
 
 </div>
 </div>
@@ -899,7 +901,7 @@
   <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
   <div class="aplayer" id="aplayer"></div>
   <script>
-  let musics = JSON.parse('[{"author":"Tobu","cover":"http://p2.music.126.net/tATu7VeCt2Zx3UEOdRyBmA==/109951165382679442.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=28830412.mp3","musicName":"Higher"}]');
+  let musics = JSON.parse('[{"author":"Tobu","cover":"http://p2.music.126.net/tATu7VeCt2Zx3UEOdRyBmA==/109951165382679442.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=28830412.mp3","musicName":"Higher"},{"author":"C418","cover":"http://p1.music.126.net/ubP1ea55bq97Sxj2ZvKo2A==/109951163802098152.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=4010184.mp3","musicName":"Door"},{"author":"Fri / TomLeevis","cover":"http://p2.music.126.net/Z8oZC_wIYjYopSGVmQVI3g==/7803234022580391.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=30854873.mp3","musicName":"Leevis"},{"author":"千坂","cover":"http://p1.music.126.net/wBCIBSNsrLo_is4_2eWkFw==/109951163346327830.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=572719808.mp3","musicName":"Settle"},{"author":"Deep Chills / IVIE","cover":"http://p1.music.126.net/iu1dvhFLjBAAdYIGcjvmug==/109951165440407198.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=504777431.mp3","musicName":"Run Free (Radio Edit)"},{"author":"Tobu / Itro","cover":"http://p1.music.126.net/KQ_MoqD1NhL2-CndmKd-rA==/109951164239509808.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=28830411.mp3","musicName":"Sunburst"},{"author":"洛天依","cover":"http://p1.music.126.net/QAT0oEoKn6vphJJfEQk9CA==/109951164541031933.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=1404797306.mp3","musicName":"权御天下"},{"author":"洛天依 / 乐正绫","cover":"http://p1.music.126.net/vkoQqphGwk6TyRFai3ZBdw==/3238061743857732.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=34923862.mp3","musicName":"霜雪千年"},{"author":"河图 / 洛天依","cover":"http://p2.music.126.net/c9u0g2KUeUQph1R1f4rGZw==/3239161259167798.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=39224244.mp3","musicName":"狐言"},{"author":"洛天依","cover":"http://p2.music.126.net/llae06wpOwBqEIhr3Zyu6A==/109951165596735230.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=1808556594.mp3","musicName":"夜航星"},{"author":"乐正绫 / 洛天依","cover":"http://p1.music.126.net/vkoQqphGwk6TyRFai3ZBdw==/3238061743857732.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=34923851.mp3","musicName":"世末歌者"},{"author":"猫瑾","cover":"http://p2.music.126.net/mbBNJr8tGckoGsr-fSd4cQ==/109951164080199565.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=1365914380.mp3","musicName":"ハレハレヤ（朗朗晴天）（翻自 v flower）"},{"author":"DAOKO / 米津玄師","cover":"http://p1.music.126.net/ZUCE_1Tl_hkbtamKmSNXEg==/109951163009282836.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=496869422.mp3","musicName":"打上花火"},{"author":"觉醒之心","cover":"http://p1.music.126.net/95MfC864QQxbwLvbW-nMug==/18292574951748285.jpg?param=130y130","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=429460299.mp3","musicName":"神々が恋した幻想郷-众神眷恋的幻想乡-东方Project钢琴"}]');
   let mediaMusic = [];
   for (let i = 0; i < musics.length; i++) {
     let item = musics[i];
@@ -1083,7 +1085,7 @@
   hljs.initHighlightingOnLoad();
   
   // 离开当前页title变化
-  var leaveTitle = "泥栽赣神魔|(￣▽￣)/";
+  var leaveTitle = "然我看看你在看什么(~￣▽￣)~";
   if (leaveTitle) {
     document.addEventListener('visibilitychange', function () {
       if (document.visibilityState == 'hidden') {
@@ -1448,6 +1450,8 @@
 <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
 <script type="text/javascript" src="/media/js/mouse/fireworks.js"></script>
 
+
+<script src="/media/js/cool.js"></script>
 
 
 
