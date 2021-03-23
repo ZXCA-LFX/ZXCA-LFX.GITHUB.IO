@@ -2153,6 +2153,12 @@ p > code {
     }.bg-color {
       background-color: #FFFFFFb2;
     }
+    .gemini .blog-header, .gemini .sidebar-wrapper, .gemini .article-wrapper, .gemini .post, .gemini .page, .gemini .section, .gemini .section-box, .gemini .sidebar-box, .gemini .friends-section {
+      border-radius: 5px;
+    }
+    .pisces .blog-header, .pisces .sidebar-wrapper, .pisces .article-wrapper, .pisces .section, .pisces .sidebar-box, .pisces .friends-section {
+      border-radius: 5px;
+    }
     .site-meta {
       background: #495057 !important;
     }
@@ -2162,7 +2168,11 @@ p > code {
     .brand {
       background: #495057b2;
     }
-    .main-title, .brand {
+    
+      .brand {
+        font-weight: bold;
+        transform: scale(1.1);
+      }.main-title, .brand {
       color: #f8f9fa !important;
     }
     .mist .site-title i {
